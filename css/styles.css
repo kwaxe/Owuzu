@@ -80,3 +80,10 @@ footer{
     display: inline-block;
 }
 
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
+}
+
+#logospin{
+  animation: 5s rotate360 infinite linear;
+}
